@@ -6,10 +6,10 @@ This is a Spam Detection Project that works on a collection of youtube comments 
 
 In this project we will be using
 
-*Python
-*Dataset from a .csv file
-*pandas, sklearn, numpy 
-*Boosting Algorithm
+* Python
+* pandas, sklearn, numpy
+* Dataset from a .csv file
+* Boosting Algorithm
 
 ### Prerequisites
 
