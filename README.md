@@ -48,6 +48,7 @@ x_train,x_test,y_train,y_test=train_test_split(text,label,train_size=0.9)
 To properly know the techniques to prepare any text before applying predictive models on them ...
 * [MonkeyLearn](https://monkeylearn.com/blog/word-embeddings-transform-text-numbers/)
 * [MachineLearningMastery](https://machinelearningmastery.com/prepare-text-data-machine-learning-scikit-learn/)
+
 We are using `Countvectorizer` class API to tokenize the important texts ...
 ```
 count_vect= CountVectorizer(decode_error='ignore')
@@ -69,6 +70,7 @@ x_test_trans=tfidf_trans.transform(x_test_count)
 * [Boosting Algorithms](https://hackernoon.com/boosting-algorithms-adaboost-gradient-boosting-and-xgboost-f74991cad38c)
 * [Installation](https://xgboost.readthedocs.io/en/latest/)
 * [Tuning](https://machinelearningmastery.com/tune-number-size-decision-trees-xgboost-python/)
+
 We apply the boosting algorithm on the transformed **Test** set after fitting the transformed **Training** set to this algorithm
 ```
 clf.fit(x_train_trans, y_train)
