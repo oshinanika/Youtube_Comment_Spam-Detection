@@ -1,4 +1,5 @@
 from youtube_comment_spam_3 import *
+#Gradient Boosting algorithm
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score
 
